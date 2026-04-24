@@ -1,0 +1,22 @@
+{
+  "name": "cxxopts",
+  "version": "3.3.1.0",
+  "schemaVersion": 2,
+  "kind": "HeaderOnlyLib",
+  "description": "TODO: one-line description of cxxopts",
+  "dependencies": {},
+  "build": {
+    "system": "cmake",
+    "configs": [
+      "Debug",
+      "Release",
+      "RelWithDebInfo",
+      "MinSizeRel"
+    ],
+    "configure": [
+      "-DCXXOPTS_BUILD_TESTS=OFF",
+      "-DCXXOPTS_BUILD_EXAMPLES=OFF"
+    ],
+    "installDir": "install"
+  }
+}
